@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "rn3-ai-app",
+    "slug": "rn3-ai-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/ai2.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/ai2.png",
+        "backgroundColor": "#000000"
+     
+      },
+      "splash": {
+      "image": "./assets/images/ai2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+
+    }
+      
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/ai2.png",
+      "splash": {
+      "image": "./assets/images/ai2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
